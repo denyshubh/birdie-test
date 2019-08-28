@@ -7,10 +7,10 @@ module.exports = {
 		dialect: 'mysql',
 	},
 	test: {
-		host: process.env.DB_HOST,
+		host: 'birdie-test.cyosireearno.eu-west-2.rds.amazonaws.com',
 		database: 'birdietest',
-		username: process.env.DB_USER,
-		password: process.env.DB_PASS,
+		username: 'test-read',
+		password: 'xnxPp6QfZbCYkY8',
 		dialect: 'mysql',
 	},
 	production: {
